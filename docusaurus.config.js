@@ -82,6 +82,18 @@ const config = {
             target: '_self',
           },
           {
+            href: "http://localhost:3001/docs/",
+            position: "left",
+            className: "header-golang-link",
+            target: '_self',
+          },
+          {
+            href: "http://localhost:3001/docs/",
+            position: "left",
+            className: "header-python-link",
+            target: '_self',
+          },
+          {
             href: "https://witness.in-toto.chaosinthe.dev/docs/",
             position: "left",
             className: "header-witness-link",

@@ -79,6 +79,30 @@
   font-weight: 800;
 }
 
+.header-community-link:before {
+  content: "Community";
+  height: 29px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.header-golang-link:before {
+  content: "In-toto-golang";
+  height: 29px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.header-python-link:before {
+  content: "In-toto-python";
+  height: 29px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 800;
+}
+
 .header-witness-link:before {
   content: "Witness";
   height: 29px;
