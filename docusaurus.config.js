@@ -13,7 +13,7 @@ const config = {
   favicon: '/static/img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://witness-website-submodule--funny-sprite-2eccb4.netlify.app',
+  url: 'https://witness.in-toto.chaosinthe.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -82,7 +82,7 @@ const config = {
             target: '_self',
           },
           {
-            href: "https://witness-website-submodule--funny-sprite-2eccb4.netlify.app/docs/",
+            href: "https://witness.in-toto.chaosinthe.dev/docs/",
             position: "left",
             className: "header-witness-link",
             target: '_self',
