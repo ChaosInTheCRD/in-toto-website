@@ -44,6 +44,7 @@ const config = {
           // Every project must have a docs directory, CONTRIBUTING.md, and CODE_OF_CONDUCT.md 
           include: [
             "docs/**/*.{md,mdx}",
+            "README.md",
             "CONTRIBUTING.md",
             "CODE_OF_CONDUCT.md",
           ],
