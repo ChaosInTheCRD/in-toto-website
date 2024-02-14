@@ -76,9 +76,9 @@ const config = {
             position: "right",
           },
           {
-            href: "http://localhost:3001/docs/",
+            href: "http://localhost:3000/docs/",
             position: "left",
-            className: "header-in-toto-link",
+            className: "header-community-link",
             target: '_self',
           },
           {
