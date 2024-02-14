@@ -44,11 +44,12 @@ const config = {
           // Every project must have a docs directory, CONTRIBUTING.md, and CODE_OF_CONDUCT.md 
           include: [
             "docs/**/*.{md,mdx}",
+            "README.md",
             "CONTRIBUTING.md",
             "CODE_OF_CONDUCT.md",
           ],
           sidebarPath: '../sidebars.js',
-          routeBasePath: "/",
+          routeBasePath: "/docs",
         },
         blog: false,
         theme: {
@@ -75,7 +76,7 @@ const config = {
             position: "right",
           },
           {
-            href: "http://localhost:3000/docs/",
+            href: "http://localhost:3001/docs/",
             position: "left",
             className: "header-in-toto-link",
             target: '_self',
