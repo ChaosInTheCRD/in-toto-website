@@ -76,21 +76,9 @@ const config = {
             position: "right",
           },
           {
-            href: "http://localhost:3000/docs/",
+          href: "https://community.in-toto.chaosinthe.dev/docs/",
             position: "left",
             className: "header-community-link",
-            target: '_self',
-          },
-          {
-            href: "http://localhost:3001/docs/",
-            position: "left",
-            className: "header-golang-link",
-            target: '_self',
-          },
-          {
-            href: "http://localhost:3001/docs/",
-            position: "left",
-            className: "header-python-link",
             target: '_self',
           },
           {
@@ -100,7 +88,7 @@ const config = {
             target: '_self',
           },
           {
-            href: "http://archivista.in-toto.chaosinthe.dev/docs/",
+            href: "https://archivista.in-toto.chaosinthe.dev/docs/",
             position: "left",
             className: "header-archivista-link",
             target: '_self',
