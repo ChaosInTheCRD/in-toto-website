@@ -49,7 +49,7 @@ const config = {
             "CODE_OF_CONDUCT.md",
           ],
           sidebarPath: '../sidebars.js',
-          routeBasePath: "/",
+          routeBasePath: "/docs",
         },
         blog: false,
         theme: {
@@ -76,13 +76,13 @@ const config = {
             position: "right",
           },
           {
-            href: "http://localhost:3000/docs/",
+            href: "http://localhost:3001/docs/",
             position: "left",
             className: "header-in-toto-link",
             target: '_self',
           },
           {
-            href: "http://localhost:3002/docs/",
+            href: "http://localhost:3000/docs/",
             position: "left",
             className: "header-witness-link",
             target: '_self',
