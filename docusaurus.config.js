@@ -88,7 +88,7 @@ const config = {
             target: '_self',
           },
           {
-            href: "http://localhost:3001/docs/",
+            href: "http://archivista.in-toto.chaosinthe.dev/docs/",
             position: "left",
             className: "header-archivista-link",
             target: '_self',
