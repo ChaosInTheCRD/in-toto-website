@@ -49,7 +49,7 @@ const config = {
             "CODE_OF_CONDUCT.md",
           ],
           sidebarPath: '../sidebars.js',
-          routeBasePath: "/docs",
+          routeBasePath: '/docs',
         },
         blog: false,
         theme: {
@@ -68,7 +68,7 @@ const config = {
         title: '',
         items: [
           {
-          href: "https://community.in-toto.chaosinthe.dev/docs/",
+          href: "https://community.in-toto.chaosinthe.dev/",
             position: "left",
             className: "header-logo-link",
             target: '_self',
