@@ -6,6 +6,9 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+const isProd = process.env.NETLIFY_ENV === 'production'
+const isNotProd = process.env.NETLIFY_ENV !== 'production'
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'In-toto',
@@ -67,30 +70,42 @@ const config = {
       navbar: {
         title: '',
         items: [
-          {
-          href: "https://community.in-toto.chaosinthe.dev/",
+          ...(isNotProd ? [{
+            to: "/",
             position: "left",
             className: "header-logo-link",
             target: '_self',
-          },
-          {
-          href: "https://community.in-toto.chaosinthe.dev/docs/",
+          }]: []),
+          ...(isNotProd ? [{
+            to: "docs/",
+            target: "_self",
+            label: process.env.IN_TOTO_SITE,
+            position: "left",
+          }]: []),
+          ...(isProd ? [{
+            href: "https://community.in-toto.chaosinthe.dev/",
+            position: "left",
+            className: "header-logo-link",
+            target: '_self',
+          }]: []),
+          ...(isProd ? [{
+            href: "https://community.in-toto.chaosinthe.dev/docs/",
             position: "left",
             className: "header-community-link",
             target: '_self',
-          },
-          {
+          }]: []),
+          ...(isProd ? [{
             href: "https://witness.in-toto.chaosinthe.dev/docs/",
             position: "left",
             className: "header-witness-link",
             target: '_self',
-          },
-          {
+          }]: []),
+          ...(isProd ? [{
             href: "https://archivista.in-toto.chaosinthe.dev/docs/",
             position: "left",
             className: "header-archivista-link",
             target: '_self',
-          },
+          }]: []),
           {
             href: "https://github.com/in-toto/in-toto",
             position: "right",
