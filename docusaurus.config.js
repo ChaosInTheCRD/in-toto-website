@@ -66,11 +66,13 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: '',
-        logo: {
-          alt: 'in-toto Project Logo',
-          src: 'img/logo.svg',
-        },
         items: [
+          {
+          href: "https://community.in-toto.chaosinthe.dev/docs/",
+            position: "left",
+            className: "header-logo-link",
+            target: '_self',
+          },
           {
           href: "https://community.in-toto.chaosinthe.dev/docs/",
             position: "left",
