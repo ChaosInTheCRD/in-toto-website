@@ -72,10 +72,6 @@ const config = {
         },
         items: [
           {
-            type: "search",
-            position: "right",
-          },
-          {
           href: "https://community.in-toto.chaosinthe.dev/docs/",
             position: "left",
             className: "header-community-link",
