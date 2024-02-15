@@ -68,7 +68,7 @@ const config = {
         title: '',
         logo: {
           alt: 'in-toto Project Logo',
-          src: 'img/in-toto.png',
+          src: 'img/logo.svg',
         },
         items: [
           {
